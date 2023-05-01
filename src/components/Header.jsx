@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import {Link} from "react-router-dom"
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -57,16 +58,16 @@ export default function Header() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-white hover:text-indigo-200">
-                <a href="">Home</a>
-              </li>
+              <Link to="/" className="text-white hover:text-indigo-200">
+               Home
+              </Link>
              
-              <li className="text-white hover:text-indigo-200">
-                <a href="">About US</a>
-              </li>
-              <li className="text-white hover:text-indigo-200">
-                <a href="">Contact US</a>
-              </li>
+              <Link to="/about" className="text-white hover:text-indigo-200">
+                About 
+              </Link>
+              <Link to="/service" className="text-white hover:text-indigo-200">
+                Service
+              </Link>
             </ul>
           </div>
         </div>
