@@ -4,14 +4,14 @@ import banner from "../assets/images/hero-banner.png";
 const Home = () => {
    return (
      <div
-       className="w-screen h-screen"
+       className="w-screen "
        style={{
          background: "var(--gradient)",
        }}
      >
        <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
          <img
-           className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center"
+           className="lg:w-3/6 md:w-3/6 w-5/6 mb-10 object-cover object-center"
            alt="A young lady sits, holding a pen and a notebook."
            src={banner}
          />

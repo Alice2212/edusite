@@ -58,7 +58,7 @@ export default function Header() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-white">
-              <Link to="/" className="">
+              <Link to="#/" className="">
                 Home
               </Link>
 
