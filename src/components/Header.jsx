@@ -6,7 +6,7 @@ export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-purple-500 shadow">
+    <nav className=" w-full bg-[--orange-web] fixed opacity-70 shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -15,7 +15,7 @@ export default function Header() {
             </a>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 text-[black] bg-[--mantis] rounded-md outline-none focus:border-[--orange-web] focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
@@ -51,21 +51,21 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="">
           <div
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <Link to="/" className="text-white hover:text-indigo-200">
-               Home
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-white">
+              <Link to="/" className="">
+                Home
               </Link>
-             
-              <Link to="/about" className="text-white hover:text-indigo-200">
-                About 
+
+              <Link to="/about" className="">
+                About
               </Link>
-              <Link to="/service" className="text-white hover:text-indigo-200">
+              <Link to="/service" className="">
                 Service
               </Link>
             </ul>
