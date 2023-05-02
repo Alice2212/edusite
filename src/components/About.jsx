@@ -36,19 +36,20 @@ const About = () => {
         />
         <img src={aboutVector} alt="vector-line" className="vector-line" />
 
-        <button className="absolute bottom-[24%] right-[8%] bg-[--white] w-20 h-20 grid  ">
+        {/* <button className="absolute bottom-[24%] right-[8%] bg-[--white] w-20 h-20 grid place-items-center	text-2xl rounded-[50%] after:content-none after:absolute after:inset-0 after:rounded-[50%] after:border after:border-[--black] after:animation-[pulseAnim] left-[62%] top-[80%]">
           <FaPlay className="play-icon" />
-        </button>
+        </button> */}
         <div className="text-center lg:w-10/12 w-full text-black">
           <h1 className="my-4 text-5xl font-bold leading-tight">
-            Start Your Future Education
+            We Help to Create Possibility & Success in Your Career!
           </h1>
           <p className="text-2xl mb-8">
-            Credibly redefine distinctive total linkage vis-a-vis multifunction
-            data. Phosphorescently impact goal-oriented strategic
+            Continually administrate process-centric human capital rather than
+            bleeding-edge methodologies. Distinctively supply accurate methods
+            of empowerment before.
           </p>
           <div className="flex justify-center mx-auto">
-            <button className="btn btn-primary">Discover More</button>
+            <button className="btn btn-primary">Get Started Today</button>
           </div>
         </div>
       </div>
