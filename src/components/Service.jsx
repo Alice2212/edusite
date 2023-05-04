@@ -1,9 +1,25 @@
 import React from 'react'
+import details from '../Data/Department-Data';
+import { Card } from "flowbite-react";
 
 const Service = () => {
+  const departmentLists = details.map((data) => (
+    <div className="max-w-sm mb-8">
+      <Card imgSrc={data.image}>
+        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          {data.title}
+        </h5>
+        <p className="font-normal text-gray-700 dark:text-gray-400">
+          {data.description}
+        </p>
+       
+      </Card>
+    </div>
+  ));
+
   return (
     <div
-      className="w-screen h-screen"
+      className="w-screen"
       style={{
         background: "var(--gradient)",
       }}
@@ -13,9 +29,7 @@ const Service = () => {
           We Have Most of Popular Departments
         </h2>
         {/* department list */}
-        <div className="department-list">
-          
-        </div>
+        <div className="department-list mb-4 flex gap-8">{departmentLists}</div>
       </div>
     </div>
   );
