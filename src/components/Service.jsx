@@ -1,6 +1,8 @@
 import React from 'react'
 import details from '../Data/Department-Data';
-import { Card } from "flowbite-react";
+import { Card, Button } from "flowbite-react";
+import { AiOutlineArrowRight } from 'react-icons/ai';
+
 
 const Service = () => {
   const departmentLists = details.map((data) => (
@@ -12,7 +14,14 @@ const Service = () => {
         <p className="font-normal text-gray-700 dark:text-gray-400">
           {data.description}
         </p>
-       
+        <div className="flex flex-wrap items-center gap-2">
+          <div>
+            <Button className="btn-primary hover:bg-[--orange-web]">
+              Learn
+              <AiOutlineArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </div>
+        </div>
       </Card>
     </div>
   ));
