@@ -16,7 +16,7 @@ const Service = () => {
         </p>
         <div className="flex flex-wrap items-center gap-2">
           <div>
-            <Button className="btn-primary hover:bg-[--orange-web]">
+            <Button className="btn-primary hover:bg-[--gambog] focus:outline outline-inherit">
               Learn
               <AiOutlineArrowRight className="ml-2 h-5 w-5" />
             </Button>
@@ -38,7 +38,10 @@ const Service = () => {
           We Have Most of Popular Departments
         </h2>
         {/* department list */}
-        <div className="department-list mb-4 flex gap-8">{departmentLists}</div>
+        <div className="department-list mb-4 flex flex-wrap items-center justify-center mx-auto gap-8">{departmentLists}</div>
+        <div className="flex justify-center mx-auto p-8">
+          <button className="btn btn-primary text-2xl">View All Department</button>
+        </div>
       </div>
     </div>
   );

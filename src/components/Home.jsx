@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import banner from "../assets/images/hero-banner.png";
 
 const Home = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  // Handling toggling to show more/less 
+  const toggleReadMore = () => {
+    setShowMore(!showMore);
+  }
+
    return (
      <div
        className="w-screen "
@@ -23,8 +30,17 @@ const Home = () => {
              Credibly redefine distinctive total linkage vis-a-vis multifunction
              data. Phosphorescently impact goal-oriented strategic
            </p>
+           {showMore && (
+             <p className="text-2xl mb-8">
+               Providing quality education for all is fundamental to creating a
+               peaceful and prosperous world. Education gives people the
+               knowledge and skills.
+             </p>
+           )}
            <div className="flex justify-center mx-auto">
-             <button className="btn btn-primary">Discover More</button>
+             <button onClick={toggleReadMore} className="btn btn-primary">
+               {showMore ? "Show Less" : " Discover More"}
+             </button>
            </div>
          </div>
        </div>
