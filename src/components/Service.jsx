@@ -1,10 +1,11 @@
-import React from 'react'
-import details from '../Data/Department-Data';
+import React from "react";
+import details from "../Data/Department-Data";
 import { Card, Button } from "flowbite-react";
-import { AiOutlineArrowRight } from 'react-icons/ai';
-
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Service = () => {
+
+  
   const departmentLists = details.map((data) => (
     <div className="max-w-sm mb-8">
       <Card imgSrc={data.image}>
@@ -16,7 +17,7 @@ const Service = () => {
         </p>
         <div className="flex flex-wrap items-center gap-2">
           <div>
-            <Button className="btn-primary hover:bg-[--gambog] focus:outline outline-inherit">
+            <Button className="btn-primary hover:bg-amber-500 focus:bg-[--gambog] focus:outline outline-inherit">
               Learn
               <AiOutlineArrowRight className="ml-2 h-5 w-5" />
             </Button>
@@ -38,12 +39,16 @@ const Service = () => {
           We Have Most of Popular Departments
         </h2>
         {/* department list */}
-        <div className="department-list mb-4 flex flex-wrap items-center justify-center mx-auto gap-8">{departmentLists}</div>
+        <div className="department-list mb-4 flex flex-wrap items-center justify-center mx-auto gap-8">
+          {departmentLists}
+        </div>
         <div className="flex justify-center mx-auto p-8">
-          <button className="btn btn-primary text-2xl">View All Department</button>
+          <button className="btn btn-primary text-2xl">
+            View All Department
+          </button>
         </div>
       </div>
     </div>
   );
-}
-export default Service
+};
+export default Service;
