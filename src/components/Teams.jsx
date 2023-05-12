@@ -62,7 +62,12 @@ const Teams = () => {
 
             <h3 className="text-[--oynx] ">Shaapir Prio</h3>
             <p className="mb-3">Assistant Director</p>
-            <div className="flex  gap-3"></div>
+            <div className="flex  gap-3">
+              <AiFillGoogleCircle size={24} />
+              <AiFillTwitterCircle size={24} />
+              <AiFillInstagram size={24} />
+              <AiFillLinkedin size={24} />
+            </div>
           </div>
         </div>
       </div>
