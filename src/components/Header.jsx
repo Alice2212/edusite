@@ -109,8 +109,8 @@ const Header = () => {
             <Navbar.Link href="/about" className="text-xl">
               About
             </Navbar.Link>
-            <Navbar.Link href="/services" className="text-xl">
-              Services
+            <Navbar.Link href="/teams" className="text-xl">
+              teams
             </Navbar.Link>
             <Navbar.Link href="/department" className="text-xl">
               Department
