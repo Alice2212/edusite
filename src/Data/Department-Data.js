@@ -49,27 +49,7 @@ const details = [
       "Assertively parallel task synergistic deliverables after high-quality.",
     more: "Learn More",
   },
-  {
-    image: Dept6,
-    title: "Technical Writing",
-    description:
-      "Assertively parallel task synergistic deliverables after high-quality.",
-    more: "Learn More",
-  },
-  {
-    image: Dept6,
-    title: "Technical Writing",
-    description:
-      "Assertively parallel task synergistic deliverables after high-quality.",
-    more: "Learn More",
-  },
-  {
-    image: Dept6,
-    title: "Technical Writing",
-    description:
-      "Assertively parallel task synergistic deliverables after high-quality.",
-    more: "Learn More",
-  },
+  
 ];
 
 export default details

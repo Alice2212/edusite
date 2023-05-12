@@ -3,12 +3,15 @@ import details from "../Data/Department-Data";
 import { Card, Button } from "flowbite-react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-const Service = () => {
+const department = () => {
 
   
   const departmentLists = details.map((data) => (
-    <div className="max-w-sm mb-8">
-      <Card imgSrc={data.image}>
+    <div className="max-w-sm mb-8 ">
+      <Card
+        imgSrc={data.image}
+        className=""
+      >
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {data.title}
         </h5>
@@ -29,12 +32,12 @@ const Service = () => {
 
   return (
     <div
-      className="w-screen"
+      className="w-screen "
       style={{
         background: "var(--gradient)",
       }}
     >
-      <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <div className="department container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <h2 className="my-4 text-5xl font-bold leading-tight text-center mb-8">
           We Have Most of Popular Departments
         </h2>
@@ -51,4 +54,4 @@ const Service = () => {
     </div>
   );
 };
-export default Service;
+export default department;

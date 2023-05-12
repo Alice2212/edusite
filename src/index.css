@@ -153,6 +153,11 @@ body {
   display: none;
 }
 
+.department{
+  background-image: url("../src/assets/images/instructor-vactor-1.svg");
+  background-repeat: no-repeat;
+}
+
 @keyframes pulseAnim {
 
   0% {
