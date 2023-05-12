@@ -1,7 +1,7 @@
 import React from "react";
 import aboutBanner from "../assets/images/about-banner.png";
 import aboutVector from "../assets/images/about-vector.svg";
-import {FaPlay} from "react-icons/fa"
+// import {FaPlay} from "react-icons/fa"
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
     <div
       className="w-screen "
       style={{
-        background: "var(--white)",
+        background: "var(--gradient)",
       }}
     >
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">

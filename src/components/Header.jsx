@@ -109,11 +109,11 @@ const Header = () => {
             <Navbar.Link href="/about" className="text-xl">
               About
             </Navbar.Link>
-            <Navbar.Link href="/teams" className="text-xl">
-              teams
-            </Navbar.Link>
             <Navbar.Link href="/department" className="text-xl">
               Department
+            </Navbar.Link>
+            <Navbar.Link href="/teams" className="text-xl">
+              Teams
             </Navbar.Link>
             <Navbar.Link href="/" className="text-xl">
               Contact
