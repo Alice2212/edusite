@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import banner from "../assets/images/hero-banner.png";
+import Footer from "./Footer";
 
 const Home = () => {
   const [showMore, setShowMore] = useState(false);
@@ -46,6 +47,7 @@ const Home = () => {
            </div>
          </div>
        </div>
+       <Footer/>
      </div>
    );
 };

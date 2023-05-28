@@ -115,7 +115,7 @@ const Header = () => {
             <Navbar.Link href="/teams" className="text-xl">
               Teams
             </Navbar.Link>
-            <Navbar.Link href="/" className="text-xl">
+            <Navbar.Link href="/contact" className="text-xl">
               Contact
             </Navbar.Link>
           </Navbar.Collapse>
