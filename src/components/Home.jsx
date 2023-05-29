@@ -19,14 +19,14 @@ const Home = () => {
        }}
      >
        <div className="container mx-auto flex px-5 py-24 items-center justify-between flex-wrap lg:flex-nowrap overflow-x-hidden">
-         <div className="lg:order-2 order-1 lg:justify-self-end justify-self-center lg:ml-12 ml-0">
+         <div className="animated bounceInDown lg:order-2 order-1 lg:justify-self-end justify-self-center lg:ml-12 ml-0">
            <img
              className="lg:w-5/6 md:w-3/6 w-5/6 mb-10 object-cover object-center mx-auto"
              alt="A young lady sits, holding a pen and a notebook."
              src={banner}
            />
          </div>
-         <div className="lg:w-5/12 w-full lg:order-1 order-2 text-center lg:text-left mx-auto">
+         <div className="animated bounceInRight lg:w-5/12 w-full lg:order-1 order-2 text-center lg:text-left mx-auto">
            <h1 className="text-6xl font-bold leading-tight text-[#121217]">
              Start Your Future Education
            </h1>
@@ -48,8 +48,8 @@ const Home = () => {
            </div>
          </div>
        </div>
-       <Contact/>
-       <Footer/>
+       <Contact />
+       <Footer />
      </div>
    );
 };

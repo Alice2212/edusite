@@ -9,9 +9,9 @@ const department = () => {
 
  
 
-  const departmentLists = details.map((data) => ( 
+  const departmentLists = details.map((data) => (
     <div className="max-w-sm mb-8 ">
-      <Card imgSrc={data.image} className="">
+      <Card imgSrc={data.image} className="hover:animated pulse">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {data.title}
         </h5>
@@ -46,9 +46,7 @@ const department = () => {
           {departmentLists}
         </div>
         <div className="flex justify-center mx-auto p-8">
-          <button className="btn btn-primary">
-           view All Departments
-          </button>
+          <button className="btn btn-primary">view All Departments</button>
         </div>
       </div>
       <Contact />
