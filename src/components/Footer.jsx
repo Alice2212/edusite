@@ -112,7 +112,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+            <hr className="h-px my-8 bg-gray-500 border-0 dark:bg-gray-700"></hr>
             <p className="text-center text-[#B3B3B3] text-sm">
               © 2022. All right reserved
             </p>

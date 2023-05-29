@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import banner from "../assets/images/hero-banner.png";
+import Contact from "./Contact";
 import Footer from "./Footer";
 
 const Home = () => {
@@ -47,6 +48,7 @@ const Home = () => {
            </div>
          </div>
        </div>
+       <Contact/>
        <Footer/>
      </div>
    );

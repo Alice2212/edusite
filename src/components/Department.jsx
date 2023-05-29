@@ -5,8 +5,9 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const department = () => {
 
-  
-  const departmentLists = details.map((data) => (
+ 
+
+  const departmentLists = details.map((data) => ( 
     <div className="max-w-sm mb-8 ">
       <Card imgSrc={data.image} className="">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -43,8 +44,8 @@ const department = () => {
           {departmentLists}
         </div>
         <div className="flex justify-center mx-auto p-8">
-          <button className="btn btn-primary text-2xl">
-            View All Department
+          <button className="btn btn-primary">
+           view All Departments
           </button>
         </div>
       </div>
