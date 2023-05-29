@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  overflow-x: hidden;
+}
+
 :root {
   --rich-black-fogra-29: hsl(240, 13%, 8%);
   --silver-chalice: hsl(0, 0%, 70%);
@@ -21,6 +25,7 @@
     90deg,
     hsl(38, 100%, 98%) 21.32%,
     hsl(144, 45%, 98%) 130%
+    
   );
 
   /**
