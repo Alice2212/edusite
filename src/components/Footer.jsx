@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <section id="footer">
       <div className="w-full bg-[--rich-black-fogra-29] ">
-        <div className="container text-[#F9FAFB] flex flex-wrap">
+        <div className="container text-[#F9FAFB] flex flex-wrap mx-auto px-5 py-24">
           <div>
             <h1>Eduland</h1>
-            <p>
+            <p className="text-[#B3B3B3] py-7">
               Professionally scale cross functional human capital and extensive
               technology.
             </p>
