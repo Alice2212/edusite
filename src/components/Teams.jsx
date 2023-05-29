@@ -8,6 +8,8 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Teams = () => {
   return (
@@ -72,6 +74,8 @@ const Teams = () => {
           </div>
         </div>
       </div>
+      <Contact />
+      <Footer />
     </section>
   );
 };
