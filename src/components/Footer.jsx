@@ -77,7 +77,7 @@ const Footer = () => {
                   Job Info
                 </li>
                 <li className="text-[#B3B3B3] py-[10px] px-0 text-sm">
-                  select
+                  Select
                 </li>
                 <li className="text-[#B3B3B3] py-[10px] px-0 text-sm">
                   Services

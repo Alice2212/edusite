@@ -11,7 +11,7 @@ const department = () => {
 
   const departmentLists = details.map((data) => (
     <div className="max-w-sm mb-8 ">
-      <Card imgSrc={data.image} className="hover:animated pulse">
+      <Card imgSrc={data.image} className="animated puffIn">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {data.title}
         </h5>
