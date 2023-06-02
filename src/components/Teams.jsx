@@ -19,7 +19,7 @@ const Teams = () => {
         background: "var(--gradient)",
       }}
     >
-      <div className="container mx-auto px-5 py-24  ">
+      <div className="container mx-auto px-5 py-24 animated bounceInRight ">
         <div className="flex flex-wrap lg:justify-between items-center justify-center mt-12 mx-auto">
           <h2 className="text-4xl font-bold leading-normal lg:text-left text-center max-w-md text-[#121217]">
             Introduce with Our Famous Teacher

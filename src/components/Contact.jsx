@@ -14,7 +14,7 @@ const Contact = () => {
             src={arrow}
             alt=""
             className="
-            lg:visible invisible md:mt-4 lg:mt-20 md:self-center"
+            lg:visible invisible md:mt-4 lg:mt-20 md:self-center "
           />
           <button className="btn btn-primary mt-5 lg:mt-0">Register Now</button>
         </div>

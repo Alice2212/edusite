@@ -172,6 +172,7 @@ body {
 	animation-fill-mode: both;
 }
 
+/* bounce right in */
 @keyframes bounceInRight { 
     0% { 
         opacity: 0; 
@@ -194,6 +195,7 @@ body {
     animation-name: bounceInRight; 
 } 
 
+/* bounce down */
 @keyframes bounceInDown { 
     0% { 
         opacity: 0; 
@@ -216,6 +218,7 @@ body {
     animation-name: bounceInDown; 
 }
 
+/* bounce out */
 @keyframes bounceOut { 
     0% { 
         transform: scale(1); 
@@ -237,6 +240,7 @@ body {
     animation-name: bounceOut; 
 }
 
+/* pulse */
 @keyframes pulse { 
     0% { transform: scale(1); } 
     50% { transform: scale(1.1); } 
@@ -247,6 +251,25 @@ body {
     animation-name: pulse; 
 }
 
+/* space in */
+@keyframes spaceInDown {
+    0% {
+        opacity: 0;
+        transform-origin: 50% 100%;
+        transform: scale(.2) translate(0%, 200%);
+    }
+    100% {
+        opacity: 1;
+        transform-origin: 50% 100%;
+        transform: scale(1) translate(0%, 0%);
+    }
+}
+.spaceInDown {
+    -webkit-animation-name: spaceInDown;
+    animation-name: spaceInDown;
+}
+
+/* puffin */
 @keyframes puffIn {
     0% {
         opacity: 0;
@@ -265,4 +288,3 @@ body {
     -webkit-animation-name: puffIn;
     animation-name: puffIn;
 }
-

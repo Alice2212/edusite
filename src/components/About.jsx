@@ -12,6 +12,7 @@ const About = () => {
       style={{
         background: "var(--gradient)",
       }}
+     
     >
       <div className="container animated bounceInRight mx-auto flex px-5 py-24 items-center justify-between flex-wrap lg:flex-nowrap">
         <div className="lg:justify-self-start justify-self-center lg:mr-12 mr-0">

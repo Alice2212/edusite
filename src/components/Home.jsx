@@ -3,6 +3,7 @@ import banner from "../assets/images/hero-banner.png";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
+
 const Home = () => {
   const [showMore, setShowMore] = useState(false);
 
@@ -48,6 +49,7 @@ const Home = () => {
            </div>
          </div>
        </div>
+    
        <Contact />
        <Footer />
      </div>
