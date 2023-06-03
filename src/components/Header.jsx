@@ -103,19 +103,21 @@ const Header = () => {
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Navbar.Link href="/" className="text-xl">
+            <Navbar.Link href="#home" className="text-xl" >
               Home
             </Navbar.Link>
-            <Navbar.Link href="/about" className="text-xl">
+            <Navbar.Link href="#about" className="text-xl">
               About
             </Navbar.Link>
-            <Navbar.Link href="/department" className="text-xl">
+            <Navbar.Link href="#department" className="text-xl">
               Department
             </Navbar.Link>
-            <Navbar.Link href="/teams" className="text-xl">
+            <Navbar.Link href="#teams" className="text-xl">
               Teams
             </Navbar.Link>
-           
+            <Navbar.Link href="#contact" className="text-xl">
+              Contact
+            </Navbar.Link>
           </Navbar.Collapse>
         </Navbar>
       </div>

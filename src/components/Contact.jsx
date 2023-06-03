@@ -4,7 +4,7 @@ import contactBanner from "../assets/images/cta-banner.png";
 
 const Contact = () => {
   return (
-    <section className="w-full bg-[--raisin-black] ">
+    <section className="w-full bg-[--raisin-black] " id="contact">
       <div className="container flex flex-wrap mx-auto py-18 relative overflow-y-hidden z-10">
         <div className="flex flex-wrap flex-row justify-center items-center my-16 ">
           <h1 className="text-white text-3xl font-bold leading-loose lg:w-1/2 w-full justify-self-start">

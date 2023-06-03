@@ -1,14 +1,13 @@
 import React from "react";
 import aboutBanner from "../assets/images/about-banner.png";
 import aboutVector from "../assets/images/about-vector.svg";
-import Contact from "./Contact";
-import Footer from "./Footer";
-// import {FaPlay} from "react-icons/fa"
+
 
 const About = () => {
   return (
     <div
       className="w-screen "
+      id="about"
       style={{
         background: "var(--gradient)",
       }}
@@ -45,8 +44,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Contact />
-      <Footer />
+      
     </div>
   );
 };

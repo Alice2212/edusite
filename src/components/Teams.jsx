@@ -8,13 +8,13 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
-import Contact from "./Contact";
-import Footer from "./Footer";
+
 
 const Teams = () => {
   return (
     <section
       className="w-screen "
+      id="teams"
       style={{
         background: "var(--gradient)",
       }}
@@ -29,7 +29,7 @@ const Teams = () => {
           </button>
         </div>
 
-        <div className=" grid lg:grid-cols-3 gap-12 grid-cols-1 text-[#6f6f76]">
+        <div className=" grid lg:grid-cols-3 gap-12 grid-cols-1 text-[#6f6f76]" >
           <div className="flex items-center flex-col mt-12">
             <figure className="mb-5">
               <img src={Instructor1} alt="Shaapir Prio" />
@@ -74,8 +74,7 @@ const Teams = () => {
           </div>
         </div>
       </div>
-      <Contact />
-      <Footer />
+     
     </section>
   );
 };

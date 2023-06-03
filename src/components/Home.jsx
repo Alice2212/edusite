@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import banner from "../assets/images/hero-banner.png";
-import Contact from "./Contact";
-import Footer from "./Footer";
+
 
 
 const Home = () => {
@@ -15,6 +14,7 @@ const Home = () => {
    return (
      <div
        className="w-screen "
+       id="home"
        style={{
          background: "var(--gradient)",
        }}
@@ -50,8 +50,7 @@ const Home = () => {
          </div>
        </div>
     
-       <Contact />
-       <Footer />
+       
      </div>
    );
 };

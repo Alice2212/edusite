@@ -2,8 +2,6 @@ import React from "react";
 import details from "../Data/Department-Data";
 import { Card, Button } from "flowbite-react";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import Contact from "./Contact";
-import Footer from "./Footer";
 
 const department = () => {
 
@@ -33,6 +31,7 @@ const department = () => {
   return (
     <div
       className="w-screen "
+      id="department"
       style={{
         background: "var(--gradient)",
       }}
@@ -49,8 +48,7 @@ const department = () => {
           <button className="btn btn-primary">view All Departments</button>
         </div>
       </div>
-      <Contact />
-      <Footer />
+      
     </div>
   );
 };
