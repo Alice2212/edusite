@@ -81,7 +81,7 @@ import { Navbar, Button } from "flowbite-react";
 
 const Header = () => {
   return (
-    <section className="fixed w-full">
+    <section className="fixed w-full z-50">
       <div>
         <Navbar
           // fluid={true}
