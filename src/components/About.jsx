@@ -1,19 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import aboutBanner from "../assets/images/about-banner.png";
 import aboutVector from "../assets/images/about-vector.svg";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div
+      data-aos="zoom-out"
+      data-aos-easing="ease-in"
+      data-aos-delay="300"
+      data-aos-offset="0"
       className="w-screen "
       id="about"
       style={{
         background: "var(--gradient)",
       }}
-     
     >
-      <div className="container animated bounceInRight mx-auto flex px-5 py-24 items-center justify-between flex-wrap lg:flex-nowrap">
+      <div className="container mx-auto flex px-5 py-24 items-center justify-between flex-wrap lg:flex-nowrap">
         <div className="lg:justify-self-start justify-self-center lg:mr-12 mr-0">
           <img
             src={aboutBanner}
@@ -44,7 +53,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
