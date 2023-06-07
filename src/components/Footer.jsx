@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <section id="footer ">
       <div className="w-full bg-[--rich-black-fogra-29] ">
-        <div className="container animated  text-[#F9FAFB] flex flex-wrap mx-auto px-5 py-24">
+        <div className="container text-[#F9FAFB] flex flex-wrap mx-auto px-5 py-24">
           <div>
             <h1 className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
               EDUSITE
