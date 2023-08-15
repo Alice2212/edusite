@@ -36,11 +36,9 @@ const About = () => {
           />
         </div>
 
-        {/* <button className="absolute bottom-[24%] right-[8%] bg-[--white] w-20 h-20 grid place-items-center	text-2xl rounded-[50%] after:content-none after:absolute after:inset-0 after:rounded-[50%] after:border after:border-[--black] after:animation-[pulseAnim] left-[62%] top-[80%]">
-          <FaPlay className="play-icon" />
-        </button> */}
-        <div className="lg:w-5/12 w-full text-center lg:text-left mx-auto lg:justify-self-end justify-self-center">
-          <h1 className="my-4 text-5xl font-bold leading-tight text-[#121217]">
+  
+        <div className="lg:w-5/12 w-full text-center lg:text-left mx-auto lg:justify-self-end justify-self-center ">
+          <h1 className="my-4 text-5xl font-bold leading-tight text-[#121217] overflow-hidden">
             We Help to Create Possibility & Success in Your Career!
           </h1>
           <p className="text-xl my-12 text-[#6f6f76]">

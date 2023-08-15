@@ -30,7 +30,7 @@ const Home = () => {
         background: "var(--gradient)",
       }}
     >
-      <div className="container mx-auto flex px-5 py-24 items-center justify-between flex-wrap lg:flex-nowrap overflow-x-hidden">
+      <div className="container mx-auto flex px-5 py-24 items-center justify-between flex-wrap lg:flex-nowrap overflow-x-hidden overflow-y-hidden">
         <div className="lg:order-2 order-1 lg:justify-self-end justify-self-center lg:ml-12 ml-0">
           <img
             className="lg:w-5/6 md:w-3/6 w-5/6 mb-10 object-cover object-center mx-auto"
@@ -39,7 +39,7 @@ const Home = () => {
           />
         </div>
         <div className="animated bounceInRight lg:w-5/12 w-full lg:order-1 order-2 text-center lg:text-left mx-auto">
-          <h1 className="text-6xl font-bold leading-tight text-[#121217]">
+          <h1 className="text-6xl font-bold leading-tight text-[#121217] overflow-hidden	">
             Start Your Future Education
           </h1>
           <p className="text-xl mt-12  mb-8 mx-auto text-[#6f6f76]">

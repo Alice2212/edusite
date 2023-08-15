@@ -37,7 +37,7 @@ const department = () => {
       }}
     >
       <div className="department container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-        <h2 className="my-4 text-5xl font-bold leading-tight text-center text-[#121217] mb-8">
+        <h2 className="my-4 text-5xl font-bold leading-tight text-center text-[#121217] mb-8 overflow-hidden">
           We Have Most of Popular Departments
         </h2>
         {/* department list */}
